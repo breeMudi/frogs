@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background-color: #101B44;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color:#ff1B44 ;
+    font-size: 60px;
+}
+
+spline-viewer {
+    width: 100vw;
+    height: 100vh;
+    /* display: none; */
+    /* z-index: 0; */
+}
+
+.bg {
+    z-index: 0;
+    position: absolute;
+}
