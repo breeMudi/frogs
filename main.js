@@ -26,11 +26,11 @@ document.body.appendChild(renderer.domElement)
 
 const loader = new GLTFLoader()
 let obj;
-loader.load('models/my_frog.glb', function(gltf){
-    console.log(gltf)
-    obj = gltf.scene
+loader.load('models/frog2.glb', function(glb){
+    console.log(glb)
+    obj = glb.scene
     // root.scale.set(1, 1, 1)
-    scene.add(gltf.scene)
+    scene.add(glb.scene)
 }, function(xhr){
     console.log('loading success')
 }, function(error){
@@ -39,7 +39,7 @@ loader.load('models/my_frog.glb', function(gltf){
 )
 
 
-const light = new THREE.DirectionalLight(0xFFA500, 1)
+const light = new THREE.DirectionalLight(0xffffff, 1)
 light.position.set(0, 0, 10)
 scene.add(light)
 
