@@ -49,15 +49,3 @@ function animate() {
 }
 
 animate()
-
-// const geometry = new THREE.BoxGeometry(1, 1, 1)
-// const material = new THREE.MeshBasicMaterial({
-//     color: 0x00ff00
-// })
-
-// const boxmesh = new THREE.Mesh(geometry, material)
-<<<<<<< HEAD
-// // scene.add(boxmesh)
-=======
-// // scene.add(boxmesh)
->>>>>>> 1e7fee34bfb111d2656b90ec6213d9a66d856421
